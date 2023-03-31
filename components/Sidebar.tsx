@@ -12,11 +12,6 @@ export default function Sidebar() {
         setTheme(theme === 'light' ? 'dark' : 'light');
     }
 
-    // useEffect(() => {
-    //     if (theme)
-    //         setTheme('light');
-    // }, []);
-
     return (
         <div>
             <Image

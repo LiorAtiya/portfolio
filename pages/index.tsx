@@ -19,7 +19,7 @@ export default function index() {
         cross-functional teams to deliver high-quality software products.
       </h5>
       <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
-        <h6 className='my-3 text-xl font-bold tracking-wide'>What I Offer</h6>
+        <h6 className='my-3 text-xl font-bold tracking-wide'>What I am doing</h6>
         <motion.div 
         // variants={stagger}
         initial='initial'
