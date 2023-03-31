@@ -11,7 +11,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      'Nunito': ['Nunito'],
+      'Montserrat': ['Montserrat'],
     },
     boxShadow:{
       'custom-light':'0 0 10px #313131',
