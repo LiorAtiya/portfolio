@@ -9,10 +9,10 @@ import { fadeInUp, routeAnimation } from '@/animation'
 export default function Projects() {
 
   const [projects, setProjects] = useState(projectsData)
-  const [active, setActive] = useState('all')
+  const [active, setActive] = useState<Category | 'all'>('all')
 
-  const [showDetail,setShowDetail] = useState<number|null>(null);
-  
+  const [showDetail, setShowDetail] = useState<number | null>(null);
+
   const handlerFilterCategory = (category: Category | 'all') => {
     if (category === 'all') {
       setProjects(projectsData);
@@ -26,9 +26,19 @@ export default function Projects() {
   }
 
 
+  const handleShowDetails = (id: number | null) => {
+    setShowDetail(id);
+    if (!!id) {
+      const newArray = projects.filter((project) => project.id === id);
+      setProjects(newArray);
+    } else {
+      handlerFilterCategory(active);
+    }
+  }
+
   return (
     <motion.div variants={routeAnimation} initial='initial' animate='animate' exit='exit'
-    className='px-5 py-2 overflow-y-scroll' style={{ height: '65vh' }}>
+      className='px-5 py-2 overflow-y-scroll' style={{ height: '65vh' }}>
       <ProjectsNavbar handlerFilterCategory={handlerFilterCategory} active={active} />
       <motion.div
         initial='initial'
@@ -40,7 +50,7 @@ export default function Projects() {
               variants={fadeInUp}
               key={project.name}
               className='col-span-12 p-2 bg-gray-200 rounded-lg lg:col-span-4 sm:col-span-6 dark:bg-dark-200'>
-              <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
+              <ProjectCard project={project} showDetail={showDetail} setShowDetail={handleShowDetails}/>
             </motion.div>
           ))
         }

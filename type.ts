@@ -23,4 +23,4 @@ export interface IProject {
     key_techs:string[],
 }
 
-export type Category = 'react' | 'java' | 'c' | 'c++' | 'python'
+export type Category = 'javascript' | 'python' | 'java' | 'c++' | 'c' 
