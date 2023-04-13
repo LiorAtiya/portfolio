@@ -139,7 +139,7 @@ export const projects: IProject[] = [
         name: 'SmartBrain',
         description: 'AI face recognition React application 🧠',
         image_path: '/images/smartbrain.png',
-        deployed_url: '',
+        deployed_url: 'https://smart-brain-israel.netlify.app',
         github_url: 'https://github.com/LiorAtiya/SmartBrain',
         category: ['javascript'],
         key_techs: ['React', 'Node.js','Express', 'PostgreSQL', 'Clarifai API'],
