@@ -125,6 +125,16 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
     {
+        id: 0,
+        name: 'OtterBeat',
+        description: 'OtterBeat is a new music platform that allows people to search for their favorite artists’ songs catalog.',
+        image_path: '/images/OtterBeat.png',
+        deployed_url: 'https://otterbeat.vercel.app',
+        github_url: 'https://github.com/LiorAtiya/OtterBeat',
+        category: ['javascript'],
+        key_techs: ['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'Cloudinary', 'Docker', 'Tailwind', 'Vite'],
+    },
+    {
         id: 1,
         name: 'Bizweb',
         description: 'Bizweb platform give business owners access to various services including publishing information about their company, uploading photos, products & services, online shop, as well as managing a virtual meeting scheduler.',
@@ -132,7 +142,7 @@ export const projects: IProject[] = [
         deployed_url: 'https://bizweb-israel.netlify.app',
         github_url: 'https://github.com/LiorAtiya/Bizweb',
         category: ['javascript'],
-        key_techs: ['React','Node.js', 'Firebase' ,'MongoDB','Cloudinary','Bing Maps','BigML','Material UI'],
+        key_techs: ['React', 'Node.js', 'Firebase', 'MongoDB', 'Cloudinary', 'Bing Maps', 'BigML', 'Material UI'],
     },
     {
         id: 2,
@@ -142,7 +152,7 @@ export const projects: IProject[] = [
         deployed_url: 'https://smart-brain-israel.netlify.app',
         github_url: 'https://github.com/LiorAtiya/SmartBrain',
         category: ['javascript'],
-        key_techs: ['React', 'Node.js','Express', 'PostgreSQL', 'Clarifai API'],
+        key_techs: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Clarifai API'],
     },
     {
         id: 3,
@@ -152,7 +162,7 @@ export const projects: IProject[] = [
         deployed_url: 'https://rick-and-morty-lioratiya.vercel.app/',
         github_url: 'https://github.com/LiorAtiya/Rick-And-Morty',
         category: ['javascript'],
-        key_techs: ['React', 'Bootstrap','Tachyons'],
+        key_techs: ['React', 'Bootstrap', 'Tachyons'],
     },
     {
         id: 4,
@@ -162,7 +172,7 @@ export const projects: IProject[] = [
         deployed_url: '',
         github_url: 'https://github.com/LiorAtiya/Pokemon-Game',
         category: ['java'],
-        key_techs: ['OOP','GUI','JunitTest','JSON','Graph algorithms'],
+        key_techs: ['OOP', 'GUI', 'JunitTest', 'JSON', 'Graph algorithms'],
     },
     {
         id: 5,
@@ -182,7 +192,7 @@ export const projects: IProject[] = [
         deployed_url: '',
         github_url: 'https://github.com/OfirOvadia96/BigData_Final-Project',
         category: ['javascript'],
-        key_techs: ['EJS', 'Express','Docker','Kafka','BigML','MySQL', 'MongoDB','Redis','WebSocket'],
+        key_techs: ['EJS', 'Express', 'Docker', 'Kafka', 'BigML', 'MySQL', 'MongoDB', 'Redis', 'WebSocket'],
     },
     {
         id: 7,
@@ -192,7 +202,7 @@ export const projects: IProject[] = [
         deployed_url: '',
         github_url: 'https://github.com/LiorAtiya/SMS-Phishing-Detection-Semi-Supervised',
         category: ['python'],
-        key_techs: ['Jupyter Notebook','TensorFlow','sklearn','pandas','GPT2', 'SpamGAN'],
+        key_techs: ['Jupyter Notebook', 'TensorFlow', 'sklearn', 'pandas', 'GPT2', 'SpamGAN'],
     },
     {
         id: 8,
@@ -202,7 +212,7 @@ export const projects: IProject[] = [
         deployed_url: '',
         github_url: 'https://github.com/shiloeli/Directed_Weighted_Graph',
         category: ['python'],
-        key_techs: ['NetworkX', 'Matplotlib','Shortest path algorithms'],
+        key_techs: ['NetworkX', 'Matplotlib', 'Shortest path algorithms'],
     },
     {
         id: 9,
@@ -212,7 +222,7 @@ export const projects: IProject[] = [
         deployed_url: '',
         github_url: 'https://github.com/LiorAtiya/Evil-Twin-Project',
         category: ['python'],
-        key_techs: ['Cyber','Linux Kali','scapy','Threads'],
+        key_techs: ['Cyber', 'Linux Kali', 'scapy', 'Threads'],
     },
     {
         id: 10,
