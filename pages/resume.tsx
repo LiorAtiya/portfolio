@@ -15,16 +15,20 @@ export default function resume() {
           <div>
             <h5 className='text-xl font-bold'>B.Sc. Computer Science & Mathematics</h5>
             <p className='font-semibold'>Ariel University, 2020-2023</p>
-            <p className='my-3'>Udemy course certification: The Complete Web Developer.</p>
+            <p className='my-3 text-sm'><b>Udemy course certification:</b> The Complete Web Developer.</p>
+            <p className='my-3 text-sm'><b>Amazon Hackathon on Stop Bullying - </b> 5.2023.</p>
+            <p className='my-3 text-sm'><b>Full-Stack Bootcamp of Interbit:</b> 4.2023 – 9.2023.</p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial='initial' animate='animate'>
           <h5 className='my-3 text-2xl font-bold'>Experience</h5>
           <div>
-            <h5 className='text-xl font-bold'>IT technician</h5>
-            <p className='font-semibold'>2018-2019</p>
-            <p className='my-3'>Technical support for customers, diagnosis, and solution of computer faults, hardware repair, work with external suppliers, implementation of systems.</p>
-            <p>Worked with SCCM, MDT servers and systems: Switches of Cisco, Portnox, Putty, ERP, Citrix.</p>
+            <h5 className='text-xl font-bold'>Full-Stack Developer Intern</h5>
+            <p className='font-semibold'>5.2023 - Present | Cyber Security – Startup</p>
+            <p className='my-3 text-sm'>• Designing SQL tables and linking them - server side.<br/>
+• Working with external APIs, including Cisco, and conducting in-depth analysis of
+the data retrieved, along with handling REST API requests on the client side.<br/>
+• Building a dashboard with Bootstrap design library and working with Figma.</p>
           </div>
         </motion.div>
 
