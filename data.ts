@@ -127,7 +127,7 @@ export const projects: IProject[] = [
         deployed_url: 'https://otterbeat.vercel.app',
         github_url: 'https://github.com/LiorAtiya/OtterBeat',
         category: ['javascript'],
-        key_techs: ['React', 'Node.js', 'TypeScript', 'PostgreSQL', 'Cloudinary', 'Docker', 'Tailwind', 'Vite'],
+        key_techs: ['React', 'Node.js', 'TypeScript', 'PostgreSQL','Redis','Cloudinary', 'Docker', 'Tailwind', 'Vite'],
     },
     {
         id: 1,
